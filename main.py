@@ -16,7 +16,7 @@ def saveQuestions():
     if request.method == "POST":
         question = request.json['a']
         answer = request.json['b']
-        return {"success": "saved sucessfully horray ok so let see "}
+        return {"success": "saved sucessfully horray ok so let"}
 
 
 # app.run(debug=True)
