@@ -2,7 +2,7 @@
 
   services:
     web:
-      image: Flask-app1
+      image: python-flask-app1
       ports:
         - "5000:5000"
       restart: always
